@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="davidtaylor.a8bitalu.MainActivity"
+    android:clickable="false">
+
+    <CheckedTextView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ctvA6"
+        android:textSize="40sp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_marginStart="16dp"
+        android:layout_alignBaseline="@+id/ctvA7"
+        android:layout_alignBottom="@+id/ctvA7"
+        android:layout_toEndOf="@+id/ctvA7" />
+
+    <CheckedTextView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ctvA5"
+        android:textSize="40sp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_alignBaseline="@+id/ctvA6"
+        android:layout_alignBottom="@+id/ctvA6"
+        android:layout_toEndOf="@+id/ctvA6"
+        android:layout_marginStart="16dp" />
+
+    <CheckedTextView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ctvA4"
+        android:textSize="40sp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_alignBaseline="@+id/ctvA5"
+        android:layout_alignBottom="@+id/ctvA5"
+        android:layout_toEndOf="@+id/ctvA5"
+        android:layout_marginStart="16dp" />
+
+    <CheckedTextView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ctvA3"
+        android:textSize="40sp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_marginStart="16dp"
+        android:layout_alignBaseline="@+id/ctvA4"
+        android:layout_alignBottom="@+id/ctvA4"
+        android:layout_toEndOf="@+id/ctvA4" />
+
+    <CheckedTextView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ctvA2"
+        android:textSize="40sp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_alignBaseline="@+id/ctvA3"
+        android:layout_alignBottom="@+id/ctvA3"
+        android:layout_toEndOf="@+id/ctvA3"
+        android:layout_marginStart="16dp" />
+
+    <CheckedTextView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ctvA1"
+        android:textSize="40sp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_alignBaseline="@+id/ctvA2"
+        android:layout_alignBottom="@+id/ctvA2"
+        android:layout_toEndOf="@+id/ctvA2"
+        android:layout_marginStart="16dp" />
+
+    <CheckedTextView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ctvA0"
+        android:textSize="40sp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_alignBaseline="@+id/ctvA1"
+        android:layout_alignBottom="@+id/ctvA1"
+        android:layout_toEndOf="@+id/ctvA1"
+        android:layout_marginStart="16dp" />
+
+    <CheckedTextView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:id="@+id/ctvA7"
+        android:textSize="40sp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_marginStart="16dp"
+        android:checked="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Word A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ctvA4"
+        android:layout_alignEnd="@+id/ctvA3"
+        android:id="@+id/tvWordA" />
+
+    <CheckedTextView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:id="@+id/ctvB7"
+        android:textSize="40sp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_blue_light"
+        android:checked="false"
+        android:layout_below="@+id/ctvA7"
+        android:layout_alignStart="@+id/ctvA7" />
+
+    <CheckedTextView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ctvB6"
+        android:textSize="40sp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_blue_light"
+        android:checked="false"
+        android:layout_alignBaseline="@+id/ctvB7"
+        android:layout_alignBottom="@+id/ctvB7"
+        android:layout_alignStart="@+id/ctvA6" />
+
+    <CheckedTextView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ctvB5"
+        android:textSize="40sp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_blue_light"
+        android:checked="false"
+        android:layout_alignBaseline="@+id/ctvB6"
+        android:layout_alignBottom="@+id/ctvB6"
+        android:layout_alignStart="@+id/ctvA5" />
+
+    <CheckedTextView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ctvB4"
+        android:textSize="40sp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_blue_light"
+        android:checked="false"
+        android:layout_alignBaseline="@+id/ctvB5"
+        android:layout_alignBottom="@+id/ctvB5"
+        android:layout_alignStart="@+id/ctvA4" />
+
+    <CheckedTextView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ctvB3"
+        android:textSize="40sp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_blue_light"
+        android:checked="false"
+        android:layout_alignBaseline="@+id/ctvB4"
+        android:layout_alignBottom="@+id/ctvB4"
+        android:layout_alignStart="@+id/ctvA3" />
+
+    <CheckedTextView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ctvB2"
+        android:textSize="40sp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_blue_light"
+        android:checked="false"
+        android:layout_alignBaseline="@+id/ctvB3"
+        android:layout_alignBottom="@+id/ctvB3"
+        android:layout_alignStart="@+id/ctvA2" />
+
+    <CheckedTextView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ctvB1"
+        android:textSize="40sp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_blue_light"
+        android:checked="false"
+        android:layout_alignBaseline="@+id/ctvB2"
+        android:layout_alignBottom="@+id/ctvB2"
+        android:layout_alignStart="@+id/ctvA1" />
+
+    <CheckedTextView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ctvB0"
+        android:textSize="40sp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_blue_light"
+        android:checked="false"
+        android:layout_alignBaseline="@+id/ctvB1"
+        android:layout_alignBottom="@+id/ctvB1"
+        android:layout_alignStart="@+id/ctvA0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvWordB"
+        android:text="Word B"
+        android:layout_above="@+id/ctvB4"
+        android:layout_alignStart="@+id/tvWordA" />
+
+    <CheckedTextView
+        android:text="Add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="49dp"
+        android:id="@+id/ctvOperation"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/ctvB7"
+        android:layout_alignStart="@+id/ctvB7" />
+
+    <Button
+        android:text="Go"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ctvOperation"
+        android:layout_alignEnd="@+id/ctvB0"
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:elevation="10dp" />
+
+    <TextView
+        android:text="Sum/Diffrence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:id="@+id/tvSolution"
+        android:textSize="40sp"
+        android:layout_below="@+id/button"
+        android:textAlignment="center"
+        android:layout_alignEnd="@+id/button"
+        android:layout_alignStart="@+id/ctvOperation" />
+</RelativeLayout>
