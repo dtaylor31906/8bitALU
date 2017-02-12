@@ -101,6 +101,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         resultStr = "1"+result.getBinString();
                         tvSolution.setText(resultStr);
                     }
+                    else{
+                        resultStr = result.getBinString();
+                        tvSolution.setText(resultStr);
+                    }
                 }
                 else
                 {
