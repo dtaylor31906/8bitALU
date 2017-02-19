@@ -117,7 +117,7 @@
         android:layout_alignParentStart="true" />
 
     <TextView
-        android:text="Word A"
+        android:text="Register A"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/ctvA4"
@@ -232,40 +232,46 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tvWordB"
-        android:text="Word B"
+        android:text="Register B"
         android:layout_above="@+id/ctvB4"
         android:layout_alignStart="@+id/tvWordA" />
 
-    <CheckedTextView
-        android:text="Add"
+
+    <TextView
+        android:text="Output Register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="49dp"
-        android:id="@+id/ctvOperation"
-        android:textSize="30sp"
-        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="116dp"
+        android:id="@+id/tvSolution"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:layout_below="@+id/spinerOperation"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinerOperation"
         android:layout_below="@+id/ctvB7"
-        android:layout_alignStart="@+id/ctvB7" />
+        android:layout_alignStart="@+id/ctvB7"
+        android:layout_marginTop="42dp"
+        android:layout_toStartOf="@+id/ctvB2" />
 
     <Button
         android:text="Go"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/ctvOperation"
-        android:layout_alignEnd="@+id/ctvB0"
         android:id="@+id/button"
         style="@style/Widget.AppCompat.Button.Colored"
-        android:elevation="10dp" />
+        android:elevation="10dp"
+        android:layout_alignTop="@+id/spinerOperation"
+        android:layout_alignEnd="@+id/tvSolution" />
 
     <TextView
-        android:text="Sum/Diffrence"
+        android:text="Operation Code"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
-        android:id="@+id/tvSolution"
-        android:textSize="40sp"
+        android:id="@+id/tvOperation"
         android:layout_below="@+id/button"
-        android:textAlignment="center"
-        android:layout_alignEnd="@+id/button"
-        android:layout_alignStart="@+id/ctvOperation" />
+        android:layout_alignStart="@+id/spinerOperation" />
 </RelativeLayout>

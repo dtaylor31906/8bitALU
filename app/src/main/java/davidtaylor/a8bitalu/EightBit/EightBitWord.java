@@ -1,6 +1,5 @@
 package davidtaylor.a8bitalu.EightBit;
 
-import davidtaylor.a8bitalu.logicGates.FourBitALU;
 import davidtaylor.a8bitalu.logicGates.FourBitWord;
 
 /**
@@ -96,5 +95,19 @@ public class EightBitWord
         temp[3]= word[7];
         result[1] = new FourBitWord(temp);
         return result;
+    }
+    //flips every bit in the word
+    public void negate()
+    {
+        for (int i = 0; i < word.length; i++)
+        {
+            word[i] = !word[i];
+        }
+
+        findBinRepresentation();
+    }
+
+    public boolean[] getWord() {
+        return word;
     }
 }
